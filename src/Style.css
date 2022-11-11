@@ -1,0 +1,9 @@
+.ekzjck {
+    -webkit-flex: none;
+        -ms-flex: none;
+        flex: none;
+        padding: 8px 4px;
+        background-color: #171798;
+        border-top: solid 2px rgba(133, 133, 133, 0.1);
+        display: none !important;
+    }

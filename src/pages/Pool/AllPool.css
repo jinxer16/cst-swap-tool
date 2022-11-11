@@ -1,0 +1,206 @@
+.text-style{
+    font-weight: bold;
+    font-size: 25px;
+}
+.format{
+    border-radius: 20px !important;
+}
+.format thead th{
+    /* border: 1px solid white !important; */
+    font-size: 18px !important;
+    font-size: 20px !important;
+    cursor: pointer !important;
+}
+th, td {
+    border-top: 1px solid white !important;
+    padding: 20px !important;
+    cursor: pointer !important;
+  }
+
+
+@media screen and (max-width: 767px) {
+    tr.col_1{
+        display:none !important;
+        width:0 !important;
+        height:0 !important;
+        opacity:0 !important;
+        visibility: collapse !important;
+}
+.btn-responsive{
+    margin-left: 10px !important;
+    flex-direction: column !important;
+    text-align: center !important;
+}
+.bd-high{
+    font-size: 15px !important;
+    text-align: center;
+    flex-direction: column !important;
+}
+.btn-btn{
+    margin-bottom: 20px !important;
+} 
+.box{
+    height: 300px !important;
+}
+.btn-btn-btn{
+    flex-direction: column !important;
+    padding: 10px !important;
+}
+
+}
+@media screen and (min-width: 768px) {
+    
+.bg-high{
+    flex-direction: column !important;
+} 
+.bg-btn{
+    margin-top: 10px !important;
+}
+
+}
+
+/***********************************DetailPage*****************************************/
+.D-text{
+    font-size: 30px !important;
+    font-weight: bold;
+}
+.box{
+    margin-top: 25px !important;
+    border:1px solid white !important;
+    border-radius: 25px !important;
+    height: auto !important;
+    background-color: #1A202C !important;
+}
+.box-1{
+    border:1px solid white !important;
+    border-radius: 15px !important;
+    height: max-content !important;
+    background-color: #4A5568;
+}
+.box-2{
+    border:1px solid white !important;
+    border-radius: 15px !important;
+    height:60px !important;
+    padding-bottom: 20px !important;
+    background-color: #4A5568;
+    margin-bottom: 20px !important;
+}
+.btn-btn{
+    border:#9616E3 1px solid !important;
+    border-radius: 10px !important;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 18px !important;
+}
+
+.btn-btn:hover{
+    background-color: #9616E3 !important;
+    color: white;
+}
+.hr-lines{
+    position: relative;
+    /* max-width: 500px; */
+    /* margin: 100px auto; */
+    /* text-align: center; */
+  }
+  
+  /* .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  } */
+  
+  .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 97% !important;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  .btn-text{
+    font-size: 18px !important;
+  }
+  .ahref{
+    text-decoration: none !important;
+    width: 100% !important;
+
+  }
+.btn-dis 
+{
+    background-color: rgba(0,0, 0, 0) !important;
+border: none !important;
+color: gray !important;
+};
+
+/* 
+@media only screen and (max-width: 768px) {
+    .btn-dis {
+      flex-direction: column !important;
+    }
+  } */
+
+  
+
+/***********************************************Candle Chart******************************/
+/* .bg-App{
+    color: #4A5568 !important;
+    background-color:green !important ;
+    fill: #9616E3 !important;
+    border-color: red !important;
+}
+#reactgooglegraph-1{
+    color: #4A5568 !important;
+    background-color:green !important ;
+    fill: #9616E3 !important;
+    border-color: red !important;
+
+} */
+Chart{
+    color: white !important;
+    background-color:green !important ;
+    fill: #9616E3 !important;
+}
+#reactgooglegraph-1 svg > rect {  /*#salesChart is ID of your google chart*/
+    fill:rgba(0, 0, 0, 0) !important;
+    border-radius: 10px !important;
+}
+
+
+g text{
+    color: white !important;
+}
+
+#chart_div text{
+    fill: red !important;
+}
+
+text{
+    text-anchor: middle;
+    font-size: 12;
+    stroke: none;
+    stroke-width: 0;
+    fill: rgb(255, 255, 255);
+}
+/* rect {
+    fill: #4A5568 !important;
+} */
+
+path{
+    stroke: rgb(255, 204, 204);
+    stroke-width: 1;
+    fill: rgb(255, 0, 0);
+    filter: url(http://localhost:3000/#_ABSTRACT_RENDERER_ID_5);
+}
+
+user agent stylesheet
+:not(svg) {
+    transform-origin: 0px 0px;
+}
